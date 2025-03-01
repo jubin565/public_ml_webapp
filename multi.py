@@ -8,8 +8,8 @@ Created on Sat Feb 15 21:42:06 2025
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-diabatics_model=pickle.load(open('D:/all_dataset/Trained_anaconda_model/multiple/diabaticsmodel.sav','rb'))
-breast_cancer_model=pickle.load(open('D:/all_dataset/Trained_anaconda_model/multiple/breastcancer.sav','rb'))
+diabatics_model=pickle.load(open('diabaticsmodel.sav','rb'))
+breast_cancer_model=pickle.load(open('breastcancer.sav','rb'))
 
 
 with st.sidebar:
